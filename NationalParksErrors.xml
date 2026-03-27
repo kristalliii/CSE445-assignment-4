@@ -1,0 +1,153 @@
+<!-- 1. root element is NationalPark -->
+<NationalPark>
+    <NationalPark>
+        <Name>Grand Canyon</Name>
+        <Phone>928-638-7888</Phone>
+        <Address>
+            <Number>8</Number>
+            <Street>S Entrance Road</Street>
+            <City>Grand Canyon</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+            <!-- 2. required attr (NearestAirport) is missing -->
+        </Address>
+        <Rating>4.8</Rating>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Yosemite</Name>
+        <!-- 3. Phone element missing -->
+        <Address>
+            <Number>9035</Number>
+            <Street>Village Drive</Street>
+            <City>Yosemite</City>
+            <State>CA</State>
+            <Zip>95389</Zip>
+            <NearestAirport>Fresno Yosemite International Airport</NearestAirport>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Canyonlands</Name>
+        <Phone>435-719-2313</Phone>
+        <Phone>435-241-3110</Phone>
+        <Address>
+            <Number>2282</Number>
+            <Street>Resource Boulevard</Street>
+            <City>Moab</City>
+            <State>UT</State>
+            <Zip>84532</Zip>
+            <NearestAirport>Canyonlands Field Airport</NearestAirport>
+        <!-- 4. Address element no closing tag -->
+    </NationalPark>
+    
+    <NationalPark>
+        <!-- 5. Two names provided -->
+        <Name>Everglades</Name>
+        <Name>Everglades 2</Name>
+        <Phone>305-242-7700</Phone>
+        <Address>
+            <Number>40001</Number>
+            <Street>State Road 9336</Street>
+            <City>Homestead</City>
+            <State>FL</State>
+            <Zip>33034</Zip>
+            <NearestAirport>Miami International Airport</NearestAirport>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Crater Lake</Name>
+        <Phone>541-594-3000</Phone>
+        <Address>
+            <Number>100</Number>
+            <Street>Rim Village Drive</Street>
+            <City>Crater Lake</City>
+            <State>OR</State>
+            <Zip>97604</Zip>
+            <NearestAirport>Rogue Valley International Medford Airport</NearestAirport>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Yellowstone</Name>
+        <Phone>307-344-7381</Phone>
+        <Address>
+            <Number>114</Number>
+            <Street>Albright Avenue</Street>
+            <City>Yellowstone National Park</City>
+            <State>WY</State>
+            <Zip>82190</Zip>
+            <NearestAirport>Yellowstone Airport</NearestAirport>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Denali</Name>
+        <Phone>907-683-9532</Phone>
+        <Address>
+            <Number>1.5</Number>
+            <Street>Denali Park Road</Street>
+            <City>Denali Park</City>
+            <State>AK</State>
+            <Zip>99755</Zip>
+            <NearestAirport>McKinley National Park Airport</NearestAirport>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Carlsbad Caverns</Name>
+        <Phone>575=785-2232</Phone>
+        <Phone>575-236-1374</Phone>
+        <Address>
+            <Number>3225</Number>
+            <Street>National Parks Highway</Street>
+            <City>Carlsbad</City>
+            <State>NM</State>
+            <Zip>88220</Zip>
+            <NearestAirport>Cavern City Airport</NearestAirport>
+        </Address>
+        <Rating>4.9</Rating>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Channel Islands</Name>
+        <Phone>805-658-5730</Phone>
+        <Address>
+            <Number>1901</Number>
+            <Street>Spinnaker Drive</Street>
+            <City>Ventura</City>
+            <State>CA</State>
+            <Zip>93001</Zip>
+            <NearestAirport>Santa Barbara Municipal Airport</NearestAirport>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Haleakala</Name>
+        <Phone>808-572-4400</Phone>
+        <Phone>877-444-6777</Phone>
+        <Address>
+            <Number>30000</Number>
+            <Street>Haleakala Highway</Street>
+            <City>Kula</City>
+            <State>HI</State>
+            <Zip>96790</Zip>
+            <NearestAirport>Kahului Airport</NearestAirport>
+        </Address>
+    </NationalPark>
+    
+    <NationalPark>
+        <Name>Joshua Tree</Name>
+        <Phone>(760) 367-5500</Phone>
+        <Address>
+            <Number>74485 </Number>
+            <Street>National Park Drive</Street>
+            <City>Twentynine Palms</City>
+            <State>CA</State>
+            <Zip>92277</Zip>
+            <NearestAirport>Palm Springs International Airport</NearestAirport>
+        </Address>
+        <Rating>4.8</Rating>
+    </NationalPark>
+</NationalPark>
