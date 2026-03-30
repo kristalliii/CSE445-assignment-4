@@ -1,4 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://kristalliii.github.io/CSE445-assignment-4/NationalParks.xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xs:element name="NationalParks">
         <xs:complexType>
             <xs:sequence>
@@ -17,7 +17,7 @@
                                         <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
                                         <xs:element name="Zip" type="xs:positiveInteger" minOccurs="1" maxOccurs="1"/>
                                     </xs:sequence>
-                                    <xs:attribute name="Nearest Airport" type="xs:string" use="required"/>
+                                    <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
