@@ -1,4 +1,4 @@
-<NationalParks>
+<NationalParks xmlns="https://kristalliii.github.io/CSE445-assignment-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://kristalliii.github.io/CSE445-assignment-4/NationalParks.xsd">
     <NationalPark Rating="4.8">
         <Name>Grand Canyon</Name>
         <Phone>928-638-7888</Phone>
