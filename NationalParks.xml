@@ -89,7 +89,7 @@
     
     <NationalPark Rating="4.9">
         <Name>Carlsbad Caverns</Name>
-        <Phone>575=785-2232</Phone>
+        <Phone>575-785-2232</Phone>
         <Phone>575-236-1374</Phone>
         <Address NearestAirport="Cavern City">
             <Number>3225</Number>
@@ -127,7 +127,7 @@
     
     <NationalPark Rating="4.8">
         <Name>Joshua Tree</Name>
-        <Phone>(760) 367-5500</Phone>
+        <Phone>760-367-5500</Phone>
         <Address NearestAirport="Palm Springs">
             <Number>74485 </Number>
             <Street>National Park Drive</Street>
