@@ -1,10 +1,12 @@
 <!-- 1. root element is NationalPark -->
-<NationalPark>
-    <NationalPark Rating="4.8">
+<?xml version="1.0" encoding="utf-8" ?>
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/kristalliii/CSE445-assignment-4 https://github.com/kristalliii/CSE445-assignment-4/NationalParks.xsd">
+    <NationalPark Rating="4.9">
         <Name>Grand Canyon</Name>
         <Phone>928-638-7888</Phone>
-        <!-- 2. required attr (NearestAirport) is missing -->
-        <Address>
+        <Phone>888-297-2757</Phone>
+        <Phone>866-499-2574</Phone>
+        <Address> <!-- 2. required attribute (NearestAirport) missing -->
             <Number>8</Number>
             <Street>S Entrance Road</Street>
             <City>Grand Canyon</City>
@@ -15,7 +17,7 @@
     
     <NationalPark>
         <Name>Yosemite</Name>
-        <!-- 3. Phone element missing -->
+        <!-- 3. phone element missing -->
         <Address NearestAirport="Fresno">
             <Number>9035</Number>
             <Street>Village Drive</Street>
@@ -39,9 +41,9 @@
     </NationalPark>
     
     <NationalPark>
-        <!-- 5. Two names provided -->
+        <!-- 5. two names provided -->
         <Name>Everglades</Name>
-        <Name>Everglades 2</Name>
+        <Name>Everglades2</Name>
         <Phone>305-242-7700</Phone>
         <Address NearestAirport="Miami">
             <Number>40001</Number>
@@ -90,7 +92,7 @@
     
     <NationalPark Rating="4.9">
         <Name>Carlsbad Caverns</Name>
-        <Phone>575=785-2232</Phone>
+        <Phone>575-785-2232</Phone>
         <Phone>575-236-1374</Phone>
         <Address NearestAirport="Cavern City">
             <Number>3225</Number>
@@ -128,7 +130,7 @@
     
     <NationalPark Rating="4.8">
         <Name>Joshua Tree</Name>
-        <Phone>(760) 367-5500</Phone>
+        <Phone>760-367-5500</Phone>
         <Address NearestAirport="Palm Springs">
             <Number>74485 </Number>
             <Street>National Park Drive</Street>
@@ -137,4 +139,4 @@
             <Zip>92277</Zip>
         </Address>
     </NationalPark>
-</NationalPark>
+</NationalParks>
